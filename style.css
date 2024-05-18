@@ -4,21 +4,21 @@ body {
     line-height: 1;
   }
   
-  textarea {
+textarea {
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(0, 0, 0);
     padding: 10px;
   }
   
   .main-description {
     text-align: center;
-    background-color: transparent;
+    background-color: pink;
     color: #000000;
     border-radius: 0;
-    border-bottom: 25px solid yellowgreen;
+    border-bottom: 25px solid palevioletred;
   }
 
   .description {
@@ -33,27 +33,27 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(255, 255, 255);
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: palevioletred;
     color: #000000;
     border-top: 1px dashed #000000;
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: pink;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: rgb(252, 108, 132);
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: rgb(255, 146, 164);
     color: white;
   }
   
@@ -61,7 +61,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: palevioletred;
     color: white;
   }
   
